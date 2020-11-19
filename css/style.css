@@ -8,7 +8,7 @@ body {
 }
 .col{
     padding-top: 4px;
-    padding-bottom: 8px;
+    padding-bottom: 4px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -23,7 +23,13 @@ body {
   width: 100%;
   max-width: 300 px; 
 }
-
+.page-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 100 px; 
+  }
 .sidebar-button {
   padding-top: 4px;
   padding-bottom: 4px;
