@@ -2,12 +2,16 @@ html, body {
   height: 100%;
   width: 100%;
 }
-
 body {
   color: #114B5F;
   background-color: #88D498 ;
 }
-
+.col{
+    padding-top: 4px;
+    padding-bottom: 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .page-title {
   text-align: center;
 }
@@ -41,11 +45,6 @@ body {
 #sidebar {
   background-color: #1A936F ;
 }
-
-/* Extra small devices (portrait phones, less than 576px) */
-/* No media query since this is the default in Bootstrap */
-
-/* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   header {
     height: 100vh;
@@ -54,12 +53,6 @@ body {
     height: 100%;
   }
 }
-
-/* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {}
-
-/* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {}
-
-/* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {}
