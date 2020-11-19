@@ -1,3 +1,6 @@
+
+    
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,26 +8,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header>
-        <h1>Steven Domiter</h1>
-        <div>
-            <a href="./index.html">Overview</a>
-            <a href="./portfolio.html">Portfolio</a>
-            <a href="./aboutme.html">About Me</a>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <header class="pt-2 pb-2">
+                    <div class="card" id="sidebar">
+                        <div class="card-body">
+                            <h1 class="card-title">Steven Domiter</h1>
+                            <div class="d-flex flex-column">
+                                <a href="./index.html" class="btn btn btn-outline-info mb-1">Overview</a>
+                                <a href="./portfolio.html" class="btn btn-outline-info mb-1">Portfolio</a>
+                                <a href="./aboutme.html" class="btn btn btn-outline-info">About Me</a>
+                            </div>
+                            <h3 class="card-text mt-2">Contact</h3>
+                            <div class="d-flex flex-column">
+                                <a href="mailto:domiter@wisc.edu" target="_blank" class="btn btn btn-outline-info mb-1">domiter@wisc.edu</a>
+                                <a href="http://www.linkedin.com/in/steven-domiter-a56183153/" target="_blank" class="btn btn btn-outline-info">LinkedIn</a>
+                            </div>
+                        </div>
+                      </div>
+                </header>
+            </div>
+            <div class="col">
+              <main>
+                  <h1>Portfolio</h1>
+                  <img src="">
+                  <h2></h2>
+                  <p1></p1>
+                  <img src="">
+                  <h3></h3>
+                  <p2></p2>
+              </main>
+            </div>
         </div>
-        <a>domiter@wisc.edu</a>
-    </header>
-    <main>
-        <h1>Portfolio</h1>
-        <img src="">
-        <h2></h2>
-        <p1></p1>
-        <img src="">
-        <h3></h3>
-        <p2></p2>
-    </main>
+    </div>
     <script src="./js/bootstrap.min.js"></script>
 </body>
 </html>

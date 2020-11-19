@@ -5,26 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Steven Domiter</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header>
-        <div class="card">
-            <div class="card-body">
-                <h1 class="card-title">Steven Domiter</h1>
-                <a href="./index.html" class="btn btn-primary">Overview</a>
-                <a href="./portfolio.html" class="btn btn-primary">Portfolio</a>
-                <a href="./aboutme.html" class="btn btn-primary">About Me</a>
-                <h3 class="card-text">Contact</h3>
-                <a href="mailto:domiter@wisc.edu" class="btn btn-primary">domiter@wisc.edu</a>
-                <a href="http://www.linkedin.com/in/steven-domiter-a56183153/" target="_blank" class="btn btn-primary">LinkedIn</a>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <header class="pt-2 pb-2">
+                    <div class="card" id="sidebar">
+                        <div class="card-body">
+                            <h1 class="card-title">Steven Domiter</h1>
+                            <div class="d-flex flex-column">
+                                <a href="./index.html" class="btn btn btn-outline-info mb-1">Overview</a>
+                                <a href="./portfolio.html" class="btn btn-outline-info mb-1">Portfolio</a>
+                                <a href="./aboutme.html" class="btn btn btn-outline-info">About Me</a>
+                            </div>
+                            <h3 class="card-text mt-2">Contact</h3>
+                            <div class="d-flex flex-column">
+                                <a href="mailto:domiter@wisc.edu" target="_blank" class="btn btn btn-outline-info mb-1">domiter@wisc.edu</a>
+                                <a href="http://www.linkedin.com/in/steven-domiter-a56183153/" target="_blank" class="btn btn btn-outline-info">LinkedIn</a>
+                            </div>
+                        </div>
+                      </div>
+                </header>
             </div>
-          </div>
-    </header>
-    <main>
-        <img src="">
-        <h1>Overview</h1>
-        <p>Hello, my name is Steven Domiter and I am currently a senior at the University of Wisconsin Madison. I am studying Cartography/GIS and Civil/Environmental engineering. I love the outdoors and try to spend as much time as possible sailing, snowboarding, hiking or just being outside.</p>
-    </main>
+            <div class="col">
+                <main>
+                    <img src="">
+                    <h1>Overview</h1>
+                    <p>Hello, my name is Steven Domiter and I am currently a senior at the University of Wisconsin Madison. I am studying Cartography/GIS and Civil/Environmental engineering. I love the outdoors and try to spend as much time as possible sailing, snowboarding, hiking or just being outside.</p>
+                </main>
+            </div>
+        </div>
+    </div>
     <script src="./js/bootstrap.min.js"></script>
 </body>
 </html>
