@@ -6,12 +6,6 @@ body {
   color: #114B5F;
   background-color: #88D498 ;
 }
-.col{
-    padding-top: 4px;
-    padding-bottom: 4px;
-    margin-left: auto;
-    margin-right: auto;
-}
 .page-title {
   text-align: center;
 }
@@ -23,13 +17,6 @@ body {
   width: 100%;
   max-width: 300 px; 
 }
-.page-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    max-width: 100 px; 
-  }
 .sidebar-button {
   padding-top: 4px;
   padding-bottom: 4px;
